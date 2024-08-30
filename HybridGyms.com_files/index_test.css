@@ -1,0 +1,68 @@
+/* Base styles for all devices */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+}
+
+/* Mobile styles (default, applied to all screens by default) */
+.col-span-1 {
+    grid-column: span 1 / span 1;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.max-w-full {
+    max-width: 100%;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+/* Tablet and above (min-width: 768px) */
+@media (min-width: 768px) {
+    .md\:col-span-2 {
+        grid-column: span 2 / span 2;
+    }
+
+    /* Add other media queries from your original CSS */
+}
+
+/* Desktop and above (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .lg\:col-span-3 {
+        grid-column: span 3 / span 3;
+    }
+
+    /* Add other media queries from your original CSS */
+}
+
+/* Large desktop and above (min-width: 1280px) */
+@media (min-width: 1280px) {
+    .xl\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    /* Add other media queries from your original CSS */
+}
