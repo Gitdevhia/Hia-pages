@@ -1616,7 +1616,7 @@ select {
 	outline-color: #6366f1
 }
 
-@media (min-width: 6400px) {
+@media (min-width: 640px) {
 	.sm\:invisible {
 		visibility: hidden
 	}
@@ -1696,14 +1696,11 @@ select {
 	}
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 768px) {
 	.md\:col-span-1 {
 		grid-column: span 1 / span 1
 	}
-	background-color: yellow:
-	{
-	
-	}
+
 	.md\:col-span-2 {
 		grid-column: span 2 / span 2
 	}
@@ -1871,7 +1868,7 @@ select {
 	}
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 	.lg\:static {
 		position: static
 	}
@@ -1990,6 +1987,24 @@ select {
 		padding-bottom: 6rem
 	}
 }
+
+@media (min-width: 1280px) {
+	.xl\:mx-0 {
+		margin-left: 0;
+		margin-right: 0
+	}
+
+	.xl\:max-w-none {
+		max-width: none
+	}
+
+	.xl\:grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr))
+	}
+
+	.xl\:flex-row {
+		flex-direction: row
+	}
 }
 
 html {
