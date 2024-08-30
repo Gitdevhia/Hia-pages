@@ -1868,7 +1868,7 @@ select {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
 	.lg\:static {
 		position: static
 	}
