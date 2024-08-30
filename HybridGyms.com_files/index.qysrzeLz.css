@@ -1616,7 +1616,7 @@ select {
 	outline-color: #6366f1
 }
 
-@media (min-width: 640px) {
+@media (min-width: 6400px) {
 	.sm\:invisible {
 		visibility: hidden
 	}
